@@ -67,6 +67,7 @@ def main():
             invalid.append(txt)
             continue
         total += val
+        rs.HideObject(dot_id)
 
     value_str = "{0:.2f}".format(total)
 
